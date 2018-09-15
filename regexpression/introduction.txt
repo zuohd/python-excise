@@ -1,0 +1,23 @@
+Python has added re module since version 1.5
+
+import re
+
+1.re.match(patten,string,flags=0) -from start begin
+flags:[re.I,re.L,re.M,re.S,re.U,re.X]
+
+2.re.search(patten,string,flags=0) -scan all string and return the first match
+
+3.re.findall(patten,string,flags=0)-scan all string and return all matchs list
+
+4.re.finditer(patten,string,flags=0)-like findall,but return an iterator(save memory)
+
+5.re.sub(patten,repstring,string,count=0,flags=0) -return new string
+  re.subn(patten,repstring,string,count=0,flags=0) -replace string and return a tuple(newstring,replace times)
+    repstring:new string
+    string:original string
+    count:Maxinum numer replce time,0 is default means replace all.
+
+*? +? x? mininum match
+
+(?:x) like (xyz),but it's not group
+

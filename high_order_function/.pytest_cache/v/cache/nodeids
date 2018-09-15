@@ -1,0 +1,4 @@
+[
+  "functionTest.py::Test::test_myAdd",
+  "functionTest.py::Test::test_mySub"
+]
