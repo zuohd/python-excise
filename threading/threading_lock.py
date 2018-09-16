@@ -6,6 +6,7 @@ a = 0
 lock = threading.Lock()
 
 
+
 # multiple thread cause data exception
 def run(num):
     # print("Child threading start--%s" % (threading.currentThread().name))
