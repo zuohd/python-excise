@@ -4,7 +4,7 @@ from bson.objectid import ObjectId  # used to id query
 
 conn = MongoClient("localhost", 27017)
 
-db = conn.mydb
+db = conn.study
 
 collection = db.student
 
@@ -21,11 +21,11 @@ for row in res:
     print(row)
     print(type(row))
 '''
-res1 = collection.find({"_id": ObjectId("1131312212b019addd14")})
+res1 = collection.find({"_id": ObjectId("5ba020fb3401064eab795ffe")})
 print(res1[0])
 
-# res2=collection.find().sorted("age") #asc order
-res2 = collection.find().sorted("age", pymongo.DESCENDING)  # desc order
+# res2=collection.find().sort("age") #asc order
+res2 = collection.find().sort("age", pymongo.DESCENDING)  # desc order
 for row in res2:
     print(row)
 
