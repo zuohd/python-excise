@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c1f5535-b496-4ac7-b917-5b3f31f16245" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlclass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +14,7 @@
     <session id="-1306736049">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -27,14 +24,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="py" value="11421" />
-          <entry key="txt" value="6" />
+          <entry key="py" value="11447" />
+          <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="11421" />
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Python" value="11447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,12 +101,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysqlclass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="72">
+              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding>
-                <marker date="1537136201762" expanded="true" signature="36:41" ph="..." />
-                <marker date="1537136201762" expanded="true" signature="355:359" ph="..." />
-                <marker date="1537136201762" expanded="true" signature="434:438" ph="..." />
+                <marker date="1537136272441" expanded="true" signature="36:41" ph="..." />
+                <marker date="1537136272441" expanded="true" signature="355:359" ph="..." />
+                <marker date="1537136272441" expanded="true" signature="434:438" ph="..." />
               </folding>
             </state>
           </provider>
@@ -369,6 +366,14 @@
       <option name="presentableId" value="Default" />
       <updated>1536327135487</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add mysql wrap class">
+      <created>1537136304059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537136304059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -394,7 +399,7 @@
       <window_info anchor="bottom" id="Find" order="4" weight="0.3294509" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.38169643" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49920383" visible="true" weight="0.39732143" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49920383" weight="0.39732143" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3294509" />
@@ -405,6 +410,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add mysql wrap class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mysql wrap class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,12 +663,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlclass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="72">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding>
-            <marker date="1537136201762" expanded="true" signature="36:41" ph="..." />
-            <marker date="1537136201762" expanded="true" signature="355:359" ph="..." />
-            <marker date="1537136201762" expanded="true" signature="434:438" ph="..." />
+            <marker date="1537136272441" expanded="true" signature="36:41" ph="..." />
+            <marker date="1537136272441" expanded="true" signature="355:359" ph="..." />
+            <marker date="1537136272441" expanded="true" signature="434:438" ph="..." />
           </folding>
         </state>
       </provider>
