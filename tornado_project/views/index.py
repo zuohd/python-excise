@@ -194,4 +194,13 @@ class FunctionHandler(RequestHandler):
         def add(n1, n2):
             return n1 + n2
 
-        self.render("function.html", add=add)
+        self.render("home.html", add=add)
+class EscapeHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        str="<a href='baidu.com'>link</a>"
+        self.render("escape.html",str=str)
+
+class CartHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        title="cart page"
+        self.render("cart.html",title=title)

@@ -23,6 +23,8 @@ class Application(tornado.web.Application):
             (r'/zhuyin',index.ZhuyinHandler),
             (r'/uploadfile',index.UploadFileHandler),
             (r'/home',index.HomeHandler),
-            (r'/function',index.FunctionHandler)
+            (r'/function',index.FunctionHandler),
+            (r'/escape',index.EscapeHandler),
+            (r'/cart',index.CartHandler)
         ]
         super(Application, self).__init__(handlers, **config.settings)
