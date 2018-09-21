@@ -22,6 +22,7 @@ class Application(tornado.web.Application):
             (r'/postfile',index.PostfileHandler),
             (r'/zhuyin',index.ZhuyinHandler),
             (r'/uploadfile',index.UploadFileHandler),
-            (r'/home',index.HomeHandler)
+            (r'/home',index.HomeHandler),
+            (r'/function',index.FunctionHandler)
         ]
         super(Application, self).__init__(handlers, **config.settings)

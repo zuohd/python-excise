@@ -178,12 +178,20 @@ class UploadFileHandler(RequestHandler):
 
 class HomeHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        temp=100
-        per={
-            "name":"Soderberg",
-            "age":34
+        temp = 100
+        per = {
+            "name": "Soderberg",
+            "age": 34
         }
-        flag=1
+        flag = 1
 
-        students=[per,{"name":"Jack","age":78}]
-        self.render("home.html",num=temp,**per,flag=flag,students=students)
+        students = [per, {"name": "Jack", "age": 78}]
+        self.render("home.html", num=temp, **per, flag=flag, students=students)
+
+
+class FunctionHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        def add(n1, n2):
+            return n1 + n2
+
+        self.render("function.html", add=add)
