@@ -1,4 +1,5 @@
 import tornado.web
+import config, os
 
 from tornado.web import RequestHandler
 
@@ -89,8 +90,28 @@ class ErrorHandler(RequestHandler):
 
 
 class HelloHandler(RequestHandler):
+    def initialize(self):
+        print("initialize")
+
+    def prepare(self):
+        print("prepare")
+
+    def set_default_headers(self):
+        print("set_default_headers")
+
+    def write_error(self, status_code, **kwargs):
+        print("write_error")
+
     def get(self, *args, **kwargs):
-        self.write("aaa")
+        print("Http request-get")
+        self.write("I'm the first line")
+        self.write("I'm the seconde line")
+        self.write("I'm the third line")
+        self.finish()  # refresh buffer and close current request channel
+        # self.write("I'm the forth line")  # after finish method,write won't work
+
+    def on_finish(self):
+        print("on_finish ")
 
 
 class liuyifeiHandler(RequestHandler):
@@ -115,8 +136,46 @@ class PostfileHandler(RequestHandler):
         self.render('postfile.html')
 
     def post(self, *args, **kwargs):
-       name=self.get_body_argument("username")
-       password=self.get_body_argument("passwd")
-       hobbyList=self.get_body_arguments("hobby")
-       print(name,password,hobbyList)
-       self.write("ok")
+        name = self.get_body_argument("username")
+        password = self.get_body_argument("passwd")
+        hobbyList = self.get_body_arguments("hobby")
+        print(name, password, hobbyList)
+        self.write("ok")
+
+
+class ZhuyinHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        print(self.request.method)
+        print(self.request.host)
+        print(self.request.uri)
+        print(self.request.path)
+        print(self.request.query)
+        print(self.request.version)
+        print(self.request.body)
+        print(self.request.headers)
+        print(self.request.remote_ip)
+        print(self.request.files)
+        print("output request object property values")
+
+
+class UploadFileHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        self.render("upfile.html")
+
+    def post(self, *args, **kwargs):
+        files = self.request.files
+        # print(files)
+        for inputname in files:
+            fileArr = files[inputname]
+            for fileObj in fileArr:
+                # save into file path
+                filepath = os.path.join(config.BASE_DIRS, 'upfile/' + fileObj.filename)
+                with open(filepath, "wb") as f:
+                    f.write(fileObj.body)
+
+        self.write("ok")
+
+
+class HomeHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        self.render("home.html")

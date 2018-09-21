@@ -19,6 +19,9 @@ class Application(tornado.web.Application):
             (r'/liuyifei/(\w+)/(\w+)/(\w+)',index.liuyifeiHandler),
             # (r'/liuyifei/(?p<p1>\w+)/(?p<p3>\w+)/(?p<p2>\w+)', index.liuyifeiHandler),
             (r'/zhangmanyu',index.ZhangmanyuHandler),
-            (r'/postfile',index.PostfileHandler)
+            (r'/postfile',index.PostfileHandler),
+            (r'/zhuyin',index.ZhuyinHandler),
+            (r'/uploadfile',index.UploadFileHandler),
+            (r'/home',index.HomeHandler)
         ]
         super(Application, self).__init__(handlers, **config.settings)
