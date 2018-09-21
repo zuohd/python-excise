@@ -178,4 +178,5 @@ class UploadFileHandler(RequestHandler):
 
 class HomeHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        self.render("home.html")
+        temp=100
+        self.render("home.html",num=temp)
