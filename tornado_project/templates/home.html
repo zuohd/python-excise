@@ -7,5 +7,16 @@
 <body>
 <h1>This is home page</h1>
 <h1>num:{{ num }}</h1>
+<h1>num+3:{{ num+3 }}</h1>
+{% if flag==0 %}
+<h1>{{age}}</h1>
+{% end %}
+
+
+<ul>
+    {% for stu in students%}
+    <li>{{"%s-%d"%(stu["name"],stu["age"])}}</li>
+    {% end %}
+</ul>
 </body>
 </html>

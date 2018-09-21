@@ -179,4 +179,11 @@ class UploadFileHandler(RequestHandler):
 class HomeHandler(RequestHandler):
     def get(self, *args, **kwargs):
         temp=100
-        self.render("home.html",num=temp)
+        per={
+            "name":"Soderberg",
+            "age":34
+        }
+        flag=1
+
+        students=[per,{"name":"Jack","age":78}]
+        self.render("home.html",num=temp,**per,flag=flag,students=students)
