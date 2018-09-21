@@ -28,6 +28,7 @@ class Application(tornado.web.Application):
             (r'/function', index.FunctionHandler),
             (r'/escape', index.EscapeHandler),
             (r'/cart', index.CartHandler),
+            (r'/students',index.StudentsHandler),
             # staticFileHandler,should be the end of all routes
             (r'/(.*)$', tornado.web.StaticFileHandler,
              {"path": os.path.join(config.BASE_DIRS, "static/html"), "default_filename": "index.html"})

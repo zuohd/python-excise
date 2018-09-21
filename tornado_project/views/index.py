@@ -204,3 +204,7 @@ class CartHandler(RequestHandler):
     def get(self, *args, **kwargs):
         title="cart page"
         self.render("cart.html",title=title)
+class StudentsHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        students=[]
+        self.render("students.html",students=students)
