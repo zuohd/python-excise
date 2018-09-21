@@ -15,6 +15,10 @@ class Application(tornado.web.Application):
             (r'/status', index.StatusHandler),
             (r'/index', index.RedirectHandler),
             # iseror?flag=0
-            (r'/iserror', index.ErrorHandler)
+            (r'/iserror', index.ErrorHandler),
+            (r'/liuyifei/(\w+)/(\w+)/(\w+)',index.liuyifeiHandler),
+            # (r'/liuyifei/(?p<p1>\w+)/(?p<p3>\w+)/(?p<p2>\w+)', index.liuyifeiHandler),
+            (r'/zhangmanyu',index.ZhangmanyuHandler),
+            (r'/postfile',index.PostfileHandler)
         ]
         super(Application, self).__init__(handlers, **config.settings)

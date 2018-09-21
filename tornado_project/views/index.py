@@ -6,8 +6,8 @@ from tornado.web import RequestHandler
 class IndexHandler(RequestHandler):
     def get(self, *args, **kwargs):
         # self.write("hello customer server from config.py file.")
-        url=self.reverse_url("hello")
-        self.write("<a href='%s'>open a page</a>"%(url))
+        url = self.reverse_url("hello")
+        self.write("<a href='%s'>open a page</a>" % (url))
 
 
 class SoderbergHandler(RequestHandler):
@@ -91,3 +91,32 @@ class ErrorHandler(RequestHandler):
 class HelloHandler(RequestHandler):
     def get(self, *args, **kwargs):
         self.write("aaa")
+
+
+class liuyifeiHandler(RequestHandler):
+    def get(self, h1, h2, h3, *args, **kwargs):
+        self.write(h1 + "-" + h2 + "-" + h3)
+        print("ok")
+
+
+class ZhangmanyuHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        a = self.get_query_argument("a")
+        # alist=self.get_query_arguments("a")
+        # print(alist[0],alist[1])
+        b = self.get_query_argument("b", default="hello")
+        c = self.get_query_argument("c", strip=False)
+        self.write("zhangmanyu is beautiful,a=%s,b=%s,c=*%s*" % (a, b, c))
+
+
+# Post
+class PostfileHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        self.render('postfile.html')
+
+    def post(self, *args, **kwargs):
+       name=self.get_body_argument("username")
+       password=self.get_body_argument("passwd")
+       hobbyList=self.get_body_arguments("hobby")
+       print(name,password,hobbyList)
+       self.write("ok")
