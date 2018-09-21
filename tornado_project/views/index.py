@@ -5,7 +5,9 @@ from tornado.web import RequestHandler
 
 class IndexHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        self.write("hello customer server from config.py file.")
+        # self.write("hello customer server from config.py file.")
+        url=self.reverse_url("hello")
+        self.write("<a href='%s'>open a page</a>"%(url))
 
 
 class SoderbergHandler(RequestHandler):
@@ -69,17 +71,23 @@ class RedirectHandler(RequestHandler):
 
 class ErrorHandler(RequestHandler):
     def write_error(self, status_code, **kwargs):
-        if status_code==500:
-            #500 page
+        if status_code == 500:
+            # 500 page
             self.write("server internal error")
-        elif status_code==404:
-            #404 page
+        elif status_code == 404:
+            # 404 page
             self.write("Not found")
         else:
             self.write("don't know")
         self.set_status(status_code)
+
     def get(self, *args, **kwargs):
-        flag=self.get_query_argument("flag")
-        if flag=='0':
+        flag = self.get_query_argument("flag")
+        if flag == '0':
             self.send_error(500)
         self.write("right.")
+
+
+class HelloHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        self.write("aaa")
