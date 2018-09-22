@@ -195,20 +195,24 @@ class FunctionHandler(RequestHandler):
             return n1 + n2
 
         self.render("home.html", add=add)
+
+
 class EscapeHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        str="<a href='baidu.com'>link</a>"
-        self.render("escape.html",str=str)
+        str = "<a href='baidu.com'>link</a>"
+        self.render("escape.html", str=str)
+
 
 class CartHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        title="cart page"
-        self.render("cart.html",title=title)
+        title = "cart page"
+        self.render("cart.html", title=title)
+
+
 class StudentsHandler(RequestHandler):
     def get(self, *args, **kwargs):
-
         sql = "select * from student"
 
-        students=self.application.db.get_all_object(sql)
+        students = self.application.db.get_all_object(sql)
         print(students)
-        self.render("students.html",students=students)
+        self.render("students.html", students=students)
