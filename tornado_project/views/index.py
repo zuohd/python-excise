@@ -13,6 +13,12 @@ class IndexHandler(RequestHandler):
         self.write("<a href='%s'>open a page</a>" % (url))
 
 
+class StaticFileHandler(tornado.web.StaticFileHandler):
+    def __init__(self, *args, **kwargs):
+        super(StaticFileHandler, self).__init__(*args, **kwargs)
+        self.xsrf_token
+
+
 class SoderbergHandler(RequestHandler):
     def initialize(self, age, number):
         self.age = age
@@ -219,23 +225,27 @@ class StudentsHandler(RequestHandler):
         students = Student.all()
         print(students)
         self.render("students.html", students=students)
+
+
 class CommonCookieHandler(RequestHandler):
     def get(self, *args, **kwargs):
         # self.set_cookie("msg","hello")
         # self.set_header("Set-Cookie","Ilove=you; Path=/")
         self.clear_cookie("msg")
-        self.clear_all_cookies(path="/",domain=None)
-        self.write("ok--%s"%(self.get_cookie("msg","no message")))
+        self.clear_all_cookies(path="/", domain=None)
+        self.write("ok--%s" % (self.get_cookie("msg", "no message")))
+
 
 class SecretCookieHandler(RequestHandler):
     def get(self, *args, **kwargs):
         # self.set_secure_cookie("greetings","good morning")
-        self.write("ok--"+self.get_secure_cookie("greetings").decode("utf-8"))
+        self.write("ok--" + self.get_secure_cookie("greetings").decode("utf-8"))
+
 
 class CookieCounterHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        count=self.get_cookie("count","1")
-        self.render("cookiecounter.html",count=count,title="page visit counter")
+        count = self.get_cookie("count", "1")
+        self.render("cookiecounter.html", count=count, title="page visit counter")
 
     def post(self, *args, **kwargs):
         count = self.get_cookie("count", None)

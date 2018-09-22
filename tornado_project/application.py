@@ -35,7 +35,7 @@ class Application(tornado.web.Application):
             #cookie couter-record browser visit times
             (r'/cookiecounter',index.CookieCounterHandler),
             # staticFileHandler,should be the end of all routes
-            (r'/(.*)$', tornado.web.StaticFileHandler,
+            (r'/(.*)$', index.StaticFileHandler,
              {"path": os.path.join(config.BASE_DIRS, "static/html"), "default_filename": "index.html"})
 
         ]
