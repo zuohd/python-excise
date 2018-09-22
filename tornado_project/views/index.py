@@ -1,5 +1,6 @@
 import tornado.web
-import config, os
+import config
+import os
 from models import Student
 
 from tornado.web import RequestHandler

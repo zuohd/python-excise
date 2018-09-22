@@ -1,4 +1,4 @@
-from ORM.mysqlclass import MysqlConnect
+from .mysqlclass import MysqlConnect
 
 
 class ORM(object):
