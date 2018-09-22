@@ -30,6 +30,10 @@ class Application(tornado.web.Application):
             (r'/escape', index.EscapeHandler),
             (r'/cart', index.CartHandler),
             (r'/students',index.StudentsHandler),
+            (r'/commoncookie',index.CommonCookieHandler),
+            (r'/secretcookie',index.SecretCookieHandler),
+            #cookie couter-record browser visit times
+            (r'/cookiecounter',index.CookieCounterHandler),
             # staticFileHandler,should be the end of all routes
             (r'/(.*)$', tornado.web.StaticFileHandler,
              {"path": os.path.join(config.BASE_DIRS, "static/html"), "default_filename": "index.html"})

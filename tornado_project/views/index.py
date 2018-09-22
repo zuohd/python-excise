@@ -219,3 +219,25 @@ class StudentsHandler(RequestHandler):
         students = Student.all()
         print(students)
         self.render("students.html", students=students)
+class CommonCookieHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        # self.set_cookie("msg","hello")
+        # self.set_header("Set-Cookie","Ilove=you; Path=/")
+        self.clear_cookie("msg")
+        self.clear_all_cookies(path="/",domain=None)
+        self.write("ok--%s"%(self.get_cookie("msg","no message")))
+
+class SecretCookieHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        # self.set_secure_cookie("greetings","good morning")
+        self.write("ok--"+self.get_secure_cookie("greetings").decode("utf-8"))
+
+class CookieCounterHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        count=self.get_cookie("count",None)
+        if count is None:
+            count=1
+        else:
+            count=int(count)+1
+        self.set_cookie("count",value=str(count))
+        self.render("cookiecounter.html",count=count,title="page visit counter")

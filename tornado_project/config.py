@@ -19,6 +19,7 @@ settings = {
     "static_path": os.path.join(BASE_DIRS, "static"),
     "template_path": os.path.join(BASE_DIRS, "templates"),
     "debug": True,
+    # "cookie_secret":"oxylSN4KSyyku20NfX2ke/VoW5KDKkV6nr54TuCKGrs="
     # "autoescape": None
     # "autoreload":True
 
