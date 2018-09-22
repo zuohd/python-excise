@@ -3,6 +3,7 @@ import os
 import tornado.web
 from views import index
 import config
+from mysqlclass import  MysqlConnect
 
 
 class Application(tornado.web.Application):
@@ -35,3 +36,4 @@ class Application(tornado.web.Application):
 
         ]
         super(Application, self).__init__(handlers, **config.settings)
+        self.db=MysqlConnect(config.mysql["host"],config.mysql["user"],config.mysql["password"],config.mysql["dbName"])

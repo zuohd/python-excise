@@ -35,6 +35,16 @@ class MysqlConnect:
         except:
             print("Query failed.")
         return result
+    def get_all_object(self, sql):
+        result=None
+        try:
+            self.connect()
+            cusor = self.db.cursor(pymysql.cursors.DictCursor)
+            cusor.execute(sql)
+            result=cusor.fetchall()
+        except:
+            print("Query failed.")
+        return result
 
     def executeSql(self, sql):
         try:

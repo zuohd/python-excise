@@ -7,7 +7,7 @@
 <body>
 <ul>
     {% for stu in students%}
-    <li>{{stu.name}}</li>
+    <li>{{stu.get("name")}}--{{stu.get("age")}}</li>
     {% end %}
 </ul>
 </body>

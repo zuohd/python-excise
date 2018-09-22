@@ -7,6 +7,13 @@ options = {
     "port": 8085
 }
 
+#database config
+mysql = {
+    "host": "localhost",
+    "user": "root",
+    "password": "root123",
+    "dbName": "study"
+}
 # configuration
 settings = {
     "static_path": os.path.join(BASE_DIRS, "static"),

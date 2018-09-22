@@ -206,5 +206,9 @@ class CartHandler(RequestHandler):
         self.render("cart.html",title=title)
 class StudentsHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        students=[]
+
+        sql = "select * from student"
+
+        students=self.application.db.get_all_object(sql)
+        print(students)
         self.render("students.html",students=students)
