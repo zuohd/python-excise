@@ -1,12 +1,26 @@
 import pymysql
+import config
 
 
+def singleton(cls, *args, **kwargs):
+    instances = {}
+
+    def _singleton():
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+
+    return _singleton
+
+
+@singleton
 class MysqlConnect:
-    def __init__(self, host, user, pwd, dbName):
-        self.host = host
-        self.user = user
-        self.pwd = pwd
-        self.dbName = dbName
+
+    def __init__(self):
+        self.host = config.mysql.get("host")
+        self.user = config.mysql.get("user")
+        self.pwd = config.mysql.get("password")
+        self.dbName = config.mysql.get("dbName")
 
     def connect(self):
         self.db = pymysql.connect(self.host, self.user, self.pwd, self.dbName)
@@ -47,15 +61,15 @@ class MysqlConnect:
             print("Query failed.")
         return result
 
-    def executeSql(self, sql):
+    def execute_sql(self, sql):
+        affectedCount=0
+        self.connect()
         try:
-            self.connect()
-            affectedCount = self.cursor.execute(sql)
+            affectedCount = self.cusor.execute(sql)
             self.db.commit()
-        except:
-            print("Execute sql failed.")
+        except Exception as e:
+            print("Execute sql failed.",e)
             self.db.rollback()
         finally:
-            self.cursor.close()
-            self.db.close()
+            self.close()
         return affectedCount

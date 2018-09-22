@@ -4,7 +4,7 @@ BASE_DIRS = os.path.dirname(__file__)
 # parameter
 
 options = {
-    "port": 8085
+    "port": 8086
 }
 
 #database config

@@ -1,5 +1,6 @@
 import tornado.web
 import config, os
+from models import Student
 
 from tornado.web import RequestHandler
 
@@ -211,8 +212,9 @@ class CartHandler(RequestHandler):
 
 class StudentsHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        sql = "select * from student"
-
-        students = self.application.db.get_all_object(sql)
+        # stu=Student("Rose",50)
+        # stu.save()
+        # self.write("ok")
+        students = Student.all()
         print(students)
         self.render("students.html", students=students)
