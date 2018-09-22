@@ -234,10 +234,14 @@ class SecretCookieHandler(RequestHandler):
 
 class CookieCounterHandler(RequestHandler):
     def get(self, *args, **kwargs):
-        count=self.get_cookie("count",None)
-        if count is None:
-            count=1
-        else:
-            count=int(count)+1
-        self.set_cookie("count",value=str(count))
+        count=self.get_cookie("count","1")
         self.render("cookiecounter.html",count=count,title="page visit counter")
+
+    def post(self, *args, **kwargs):
+        count = self.get_cookie("count", None)
+        if count is None:
+            count = 1
+        else:
+            count = int(count) + 1
+        self.set_cookie("count", value=str(count))
+        self.redirect("/cookiecounter")
