@@ -1,7 +1,7 @@
 import os
 
 import tornado.web
-from views import index,student
+from views import index,student,chat
 import config
 from ORM.mysqlclass import  MysqlConnect
 
@@ -39,6 +39,8 @@ class Application(tornado.web.Application):
             #cookie couter-record browser visit times
             (r'/cookiecounter',index.CookieCounterHandler),
             (r'/login',index.LoginHandler),
+            (r'/chathome',chat.HomeHandler),
+            (r'/chat',chat.ChatHandler),
             # staticFileHandler,should be the end of all routes
             (r'/(.*)$', index.StaticFileHandler,
              {"path": os.path.join(config.BASE_DIRS, "static/html"), "default_filename": "index.html"})
