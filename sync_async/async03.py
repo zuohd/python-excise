@@ -14,7 +14,7 @@ def longIO():
 def genCoroutine(func):
     def wrapper(*args,**kwargs):
         global gen
-        gen=func(*args,**kwargs)
+        gen=func()
         next(gen)
     return wrapper
 
