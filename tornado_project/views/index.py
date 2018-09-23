@@ -185,6 +185,11 @@ class UploadFileHandler(RequestHandler):
 
 
 class HomeHandler(RequestHandler):
+    def get_current_user(self):
+        flag=self.get_argument("flag",None)
+        return flag=="logined"
+
+    @tornado.web.authenticated
     def get(self, *args, **kwargs):
         temp = 100
         per = {
@@ -255,3 +260,19 @@ class CookieCounterHandler(RequestHandler):
             count = int(count) + 1
         self.set_cookie("count", value=str(count))
         self.redirect("/cookiecounter")
+
+
+class LoginHandler(RequestHandler):
+    def get(self, *args, **kwargs):
+        next=self.get_argument("next","/")
+        url="login?next="+next
+        self.render("login.html",url=url)
+
+    def post(self, *args, **kwargs):
+        name=self.get_argument("username")
+        password=self.get_argument("passwd")
+        next = self.get_argument("next", "/")
+        if name=="1" and password=="1":
+            self.redirect(next+"?flag=logined")
+        else:
+            self.redirect("/login?next="+next)

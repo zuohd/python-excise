@@ -21,6 +21,7 @@ settings = {
     "debug": True,
     "cookie_secret":"oxylSN4KSyyku20NfX2ke/VoW5KDKkV6nr54TuCKGrs=",
     "xsrf_cookies":True,
+    "login_url":"/login",
     # "autoescape": None
     # "autoreload":True
 
