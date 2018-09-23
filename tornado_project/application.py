@@ -1,7 +1,7 @@
 import os
 
 import tornado.web
-from views import index
+from views import index,student
 import config
 from ORM.mysqlclass import  MysqlConnect
 
@@ -30,6 +30,8 @@ class Application(tornado.web.Application):
             (r'/escape', index.EscapeHandler),
             (r'/cart', index.CartHandler),
             (r'/students',index.StudentsHandler),
+            (r'/asyncstudents',student.StudentsHandler),
+            (r'/asynchome', student.HomeHandler),
             (r'/commoncookie',index.CommonCookieHandler),
             (r'/secretcookie',index.SecretCookieHandler),
             #cookie couter-record browser visit times
