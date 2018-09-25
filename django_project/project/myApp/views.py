@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from .models import Grades
+from .models import Grades, Children
 
 
 def index(request):
@@ -19,4 +19,10 @@ def grades(request):
 
 
 def children(request):
-    pass
+    childrenList = Children.objects.all()
+    return render(request, "myApp/children.html", {'children': childrenList})
+
+
+def gradesChildren(request, gid):
+    childrenList = Grades.objects.get(pk=gid).children_set.all()
+    return render(request, "myApp/children.html", {'children': childrenList})

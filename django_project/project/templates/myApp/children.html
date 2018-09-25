@@ -5,6 +5,10 @@
     <title>Children</title>
 </head>
 <body>
-
+<ul>
+    {%for child in children %}
+    <li>{{child.pname}}</li>
+    {%endfor%}
+</ul>
 </body>
 </html>
