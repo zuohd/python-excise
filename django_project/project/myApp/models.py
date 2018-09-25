@@ -13,7 +13,14 @@ class Grades(models.Model):
         return "%s-%d-%d" % (self.gname, self.ggirlnum, self.gboynum)
 
 
+class childrenManager(models.Manager):
+    def get_queryset(self):
+        return super(childrenManager, self).get_queryset().filter(isDeleted=False)
+
+
 class Children(models.Model):
+    # childObj = models.Manager()  # we can custom manage object
+    childObj = childrenManager()
     pname = models.CharField(max_length=20)
     sgender = models.BooleanField(default=True)
     sage = models.IntegerField()
@@ -23,3 +30,7 @@ class Children(models.Model):
 
     def __str__(self):
         return self.pname
+
+    # class Meta:
+    #     db_table = "students"  # define data table name
+    #     ordering = ['id']  # ASC order to fetch object list,desc used ['-id']
