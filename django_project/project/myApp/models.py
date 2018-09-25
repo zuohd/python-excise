@@ -20,3 +20,6 @@ class Children(models.Model):
     ssummary = models.CharField(max_length=20)
     isDeleted = models.BooleanField(default=False)
     sgrade = models.ForeignKey(Grades, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.pname
