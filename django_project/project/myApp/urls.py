@@ -1,16 +1,17 @@
-from django.conf.urls import url
+from django.conf.urls import re_path
 
 from . import views
 
+app_name = "myApp"
 urlpatterns = [
-    url(r'^$', views.index),
+    re_path(r'^$', views.index),
 
-    url(r'^grades/$', views.grades),
-    url(r'^children/$', views.children),
-    url(r'^children/(\d+)/$', views.ChildrenPage),
-    url(r'^grades/(\d+)$', views.gradesChildren),
-    url(r'^addchild/$', views.addChild),
-    url(r'^childrensearch/$', views.childrenSearch),
-    url(r'(\d+)/$', views.detail),
+    re_path(r'^grades/$', views.grades),
+    re_path(r'^children/$', views.children),
+    re_path(r'^children/(\d+)/$', views.ChildrenPage),
+    re_path(r'^grades/(\d+)$', views.gradesChildren),
+    re_path(r'^addchild/$', views.addChild),
+    re_path(r'^childrensearch/$', views.childrenSearch),
+    re_path(r'(\d+)/$', views.detail),
 
 ]
