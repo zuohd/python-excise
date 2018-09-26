@@ -12,6 +12,8 @@ urlpatterns = [
     re_path(r'^grades/(\d+)$', views.gradesChildren),
     re_path(r'^addchild/$', views.addChild),
     re_path(r'^childrensearch/$', views.childrenSearch),
+    re_path(r'^attributes/$', views.attributes),
+    re_path(r'^getparameter/$', views.getparameter),
     re_path(r'(\d+)/$', views.detail),
 
 ]

@@ -53,3 +53,22 @@ def childrenSearch(request):
     print(maxAge)
     childrenList = Children.childObj.filter(sgrade__gname__contains="python")
     return render(request, "myApp/children.html", {'children': childrenList})
+
+
+def attributes(request):
+    print(request.path)
+    print(request.method)
+    print(request.encoding)
+    print(request.GET)
+    print(request.POST)
+    print(request.FILES)
+    print(request.COOKIES)
+    print(request.session)
+    return HttpResponse("Attribute.")
+
+
+def getparameter(request):
+    a = request.GET.get('a')
+    b = request.GET.get('b')
+    c = request.GET.get('c')
+    return HttpResponse(a + b + c)
