@@ -1,4 +1,5 @@
 # Create your views here.
+from django.db.models import Max, Q
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -15,11 +16,14 @@ def detail(request, num):
 
 def grades(request):
     gradesList = Grades.objects.all()
+    # gradesList = Grades.objects.filter(ggirlnum__gte=F('gboynum'))
+
     return render(request, "myApp/grades.html", {'grades': gradesList})
 
 
 def children(request):
-    childrenList = Children.childObj.get_queryset()
+    # childrenList = Children.childObj.get_queryset()
+    childrenList = Children.childObj.filter(Q(pk__lte=2) | Q(sage__gt=30))
     return render(request, "myApp/children.html", {'children': childrenList})
 
 
@@ -38,4 +42,14 @@ def addChild(request):
 def ChildrenPage(request, page):
     page = int(page);
     childrenList = Children.childObj.all()[(page - 1) * 3:page * 3]
+    return render(request, "myApp/children.html", {'children': childrenList})
+
+
+def childrenSearch(request):
+    # childrenList = Children.childObj.filter(pname__contains="om")
+    # childrenList = Children.childObj.filter(pname__startswith="so")
+    childrenList = Children.childObj.filter(pk__in=[2, 4, 5])
+    maxAge = Children.childObj.aggregate(Max('sage'))
+    print(maxAge)
+    childrenList = Children.childObj.filter(sgrade__gname__contains="python")
     return render(request, "myApp/children.html", {'children': childrenList})
