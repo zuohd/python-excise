@@ -4,9 +4,12 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index),
-    url(r'(\d+)/$', views.detail),
+
     url(r'^grades/$', views.grades),
     url(r'^children/$', views.children),
-    url(r'^grades/(\d+)$', views.gradesChildren)
+    url(r'^children/(\d+)/$', views.ChildrenPage),
+    url(r'^grades/(\d+)$', views.gradesChildren),
+    url(r'^addchild/$', views.addChild),
+    url(r'(\d+)/$', views.detail),
 
 ]

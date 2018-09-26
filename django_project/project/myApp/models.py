@@ -17,6 +17,16 @@ class childrenManager(models.Manager):
     def get_queryset(self):
         return super(childrenManager, self).get_queryset().filter(isDeleted=False)
 
+    def createChild(self, name, gender, age, summary, grade):
+        child = self.model()
+        # print(type(grade))
+        child.pname = name
+        child.sgender = gender
+        child.sage = age
+        child.ssummary = summary
+        child.sgrade = grade
+        return child
+
 
 class Children(models.Model):
     # childObj = models.Manager()  # we can custom manage object
