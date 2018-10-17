@@ -13,26 +13,29 @@ class fiveOneJobSpider(scrapy.Spider):
     start_urls = [baseURL % (offset)]
 
     def parse(self, response):
-        node_list = response.xpath("//div[@class='el']")
+        node_list = response.xpath("//div[@id='resultList']/div[@class='el']")
         for node in node_list:
             item = MyspiderItem()
-            item['positionName'] = node.xpath("./p/span/a/text()").extract()[0].encode("utf-8")
-            item['postionLink'] = node.xpath("./p/span/a/@href").extract()[0].encode("utf-8")
-            item['companyName'] = node.xpath("./span[class='t2']/a/text()").extract()[0].encode("utf-8")
-            item['workLocation'] = node.xpath("./span[class='t3']/text()").extract()[0].encode("utf-8")
-            if len(node.xpath("./span[class='t4']/text()")):
-                item['salary'] = node.xpath("./span[class='t4']/text()").extract()[0].encode("utf-8")
-            else:
-                item['salary'] = ""
+            # print(node.xpath("/p/span/a/text()"))
+            item['positionName'] = node.xpath("./p/span/a/text()").extract_first(default="").strip()
 
-            item['publishTime'] = node.xpath("./span[class='t5']/text()").extract()[0].encode("utf-8")
+            item['positionLink'] = node.xpath("./p/span/a/@href").extract_first(default="").strip()
+
+            item['companyName'] = node.xpath("./span[1]/a/text()").extract_first(default="").strip()
+
+            item['workLocation'] = node.xpath("./span[2]/text()").extract_first(default="").strip()
+
+            item['salary'] = node.xpath("./span[3]/text()").extract_first(default="").strip()
+
+            item['publishTime'] = node.xpath("./span[4]/text()").extract_first(default="").strip()
+
             yield item
 
-            if self.offset<126:
-                self.offset+=1
-                url=self.baseURL%(self.offset)
-                yield scrapy.Request(url,callback=self.parse)
+            if self.offset < 20:
+                self.offset += 1
+                url = self.baseURL % (self.offset)
+                yield scrapy.Request(url, callback=self.parse)
 
-            if len(response.xpath("//li[@class='bk'][2]/span/text()"))==0:
-                url=response.xpath("//li[@class='bk'][2]/a/@href").extract()[0]
-                yield scrapy.Request(url.split('?')[0],self.parse)
+            # if len(response.xpath("//li[@class='bk'][2]/span/text()")) == 0:
+            #     url = response.xpath("//li[@class='bk'][2]/a/@href").extract_first()
+            #     yield scrapy.Request(url.split('?')[0], callback=self.parse)
