@@ -1,9 +1,16 @@
-from flask import Flask,render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 
 @app.route('/')
+def index():
+    # return request.method
+    uid=request.args.get('uid','none')
+    age=request.args.get('age',0)
+    return "uid:{},age:{}".format(uid,age)
+
+@app.route('/hello/')
 def Hello_world():
     return '<h1>Hello world!</h1>'
 
@@ -21,6 +28,7 @@ def user(uid):
 @app.route('/path/<path:p>')
 def path(p):
     return p
+
 
 @app.route('/profile/')
 def profile():
