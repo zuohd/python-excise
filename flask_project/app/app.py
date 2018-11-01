@@ -6,9 +6,15 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # return request.method
-    uid=request.args.get('uid','none')
-    age=request.args.get('age',0)
-    return "uid:{},age:{}".format(uid,age)
+    uid = request.args.get('uid', 'none')
+    age = request.args.get('age', 0)
+    return "uid:{},age:{}".format(uid, age)
+
+
+@app.route('/login/',methods=['get','post'])
+def login():
+    return render_template('login.html')
+
 
 @app.route('/hello/')
 def Hello_world():
