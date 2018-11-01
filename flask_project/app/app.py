@@ -11,9 +11,12 @@ def index():
     return "uid:{},age:{}".format(uid, age)
 
 
-@app.route('/login/',methods=['get','post'])
+@app.route('/login/', methods=['get', 'post'])
 def login():
-    return render_template('login.html')
+    if request.method == 'GET':
+        return render_template('login.html')
+    else:
+        return "username:{}\n password:{}".format(request.form.get('username'), request.form.get('password'))
 
 
 @app.route('/hello/')
