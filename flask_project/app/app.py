@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,redirect,url_for
 
 app = Flask(__name__)
 
@@ -16,8 +16,8 @@ def login():
     if request.method == 'GET':
         return render_template('login.html')
     else:
-        return "username:{}\n password:{}".format(request.form.get('username'), request.form.get('password'))
-
+        # return "username:{}<br/> password:{}".format(request.form.get('username'), request.form.get('password'))
+        return redirect(url_for('Hello_world'))
 
 @app.route('/hello/')
 def Hello_world():
