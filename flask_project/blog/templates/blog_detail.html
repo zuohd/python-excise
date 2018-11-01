@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>blog detail</title>
-</head>
-<body>
-blog detail
-</body>
-</html>
+{% extends 'parents.html'%}
+
+{% block title %}blog -detail{% endblock %}
+{% block header_title %}{{blog['title']}}{% endblock %}
+{% block content %}
+<p>{{blog['content']}}</p>
+<a href="/" class="pull-right">return</a>{% endblock %}

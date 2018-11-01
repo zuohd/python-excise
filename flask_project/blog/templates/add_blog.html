@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add blog</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
-</head>
-<body>
-<div class="header">
-    <h1>Auth blog</h1>
-</div>
-<div class="content">
+{% extends 'parents.html'%}
 
-</div>
-</body>
-</html>
+{% block title %}blog -add{% endblock %}
+{% block header_title %}Auth blog{% endblock %}
+{% block content %}
+<form action="" method="post">
+    <div class="form-group">
+        <input type="text" name="title" class="form-control" placeholder="input blog title">
+    </div>
+    <div class="form-group">
+        <textarea name="content" class="form-control" rows="3" placeholder="blog content"></textarea>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary pull-right">submit</button>
+        <div class="clearfix"></div>
+    </div>
+</form>
+{% endblock %}
