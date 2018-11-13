@@ -1,8 +1,15 @@
-import common
+# import common
 
 def run():
-    inp=input("input calling function name:")
-    func=getattr(common,inp)
-    func()
+    inp = input("input calling function name:")
+    module_name, fuc_name = inp.split('/')
+    module = __import__(module_name)
+    if hasattr(module, fuc_name):
+        func = getattr(module, fuc_name)
+        func()
+    else:
+        print('404')
 
-run()
+
+if __name__ == '__main__':
+    run()
