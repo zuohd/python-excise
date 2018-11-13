@@ -3,7 +3,7 @@
 def run():
     inp = input("input calling function name:")
     module_name, fuc_name = inp.split('/')
-    module = __import__(module_name)
+    module = __import__('others.'+module_name,fromlist=True)
     if hasattr(module, fuc_name):
         func = getattr(module, fuc_name)
         func()
