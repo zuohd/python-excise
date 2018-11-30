@@ -1,8 +1,9 @@
 def decorator(func):
     def inner(*args, **kwargs):
         print("--before function execute--")
-        func(*args, **kwargs)
+        ret = func(*args, **kwargs)
         print("--After executed function--")
+        return ret
 
     return inner
 
