@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Regexpression/retest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/decorator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,28 +87,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1888" />
-          <entry key="dummy" value="6" />
-          <entry key="py" value="1729" />
-          <entry key="txt" value="115" />
+          <entry key="Python Console" value="1910" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="1925" />
+          <entry key="txt" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="121" />
-          <entry key="Python" value="3617" />
+          <entry key="PLAIN_TEXT" value="160" />
+          <entry key="Python" value="3835" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -118,20 +118,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AOP/decorator.py">
+        <entry file="file://$PROJECT_DIR$/Regexpression/retest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="108">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -181,6 +172,8 @@
         <option value="$PROJECT_DIR$/writefile/withopenfile.py" />
         <option value="$PROJECT_DIR$/fibonacci.py" />
         <option value="$PROJECT_DIR$/AOP/decorator.py" />
+        <option value="$PROJECT_DIR$/Regexpression/re.py" />
+        <option value="$PROJECT_DIR$/Regexpression/retest.py" />
       </list>
     </option>
   </component>
@@ -203,6 +196,11 @@
             <path>
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="startPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="startPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Regexpression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decorator">
+  <component name="RunManager" selected="Python.re">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +291,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Regexpression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regexpression/retest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="secondPython" type="PythonConfigurationType" factoryName="Python">
       <module name="认识Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,27 +354,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="writefile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/writefile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/writefile/writefile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="writelinesfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,19 +378,19 @@
     <list>
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.writefile" />
       <item itemvalue="Python.writelinesfile" />
       <item itemvalue="Python.withopenfile" />
       <item itemvalue="Python.fibonacci" />
       <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.re" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re" />
         <item itemvalue="Python.decorator" />
         <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.withopenfile" />
         <item itemvalue="Python.writelinesfile" />
-        <item itemvalue="Python.writefile" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543379884282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="func need return value else None">
+      <created>1543564776212</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543564776212</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -456,7 +461,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1362" height="553" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982079" visible="true" weight="0.22869955" />
       <window_info id="Structure" order="1" sideWeight="0.50179213" side_tool="true" weight="0.22950819" />
@@ -471,7 +475,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32603407" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4379562" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.328125" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.38120568" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.37956205" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -499,7 +503,8 @@
     <MESSAGE value="some test code" />
     <MESSAGE value="add fibonacci" />
     <MESSAGE value="AOP implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP implementation" />
+    <MESSAGE value="func need return value else None" />
+    <option name="LAST_COMMIT_MESSAGE" value="func need return value else None" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,6 +680,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regexpression/retest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
