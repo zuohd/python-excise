@@ -1,13 +1,14 @@
 import socket
+import os
 
 ip_port = ('127.0.0.1', 9999)
-sk = socket.socket()
-sk.connect(ip_port)
-data=sk.recv(1024)
-print(data)
+obj = socket.socket()
+obj.connect(ip_port)
+size = os.stat("old_file.txt").st_size
+obj.sendall(bytes(str(size), encoding="utf-8"))
+obj.recv(1024)
+with open("old_file.txt", "rb") as f:
+    for line in f:
+        obj.sendall(line)
 
-while True:
-    inp=input(">>>")
-    sk.sendall(bytes(inp,encoding="utf-8"))
-
-sk.close()
+obj.close()

@@ -1,4 +1,3 @@
-import select
 import socket
 
 ip_port = ('127.0.0.1', 9999)
@@ -6,12 +5,20 @@ sk = socket.socket()
 sk.bind(ip_port)
 sk.listen(5)
 while True:
-    rlist,w,e=select.select([sk,],[],[],1)
-    print(rlist)
-    for r in rlist:
-        print(r)
-        if r==sk:
-            conn,address=r.accept()
-            conn.sendall(bytes('hello',encoding='utf-8'))
-        else:
-            r.receieve(1024)
+    conn,address=sk.accept()
+    file_size=str(conn.recv(1024),encoding="utf-8")
+    conn.sendall(bytes("ack",encoding="utf-8"))
+    total_size=int(file_size)
+    has_recv=0
+
+    f=open('new_file.txt','wb')
+    while True:
+        if total_size==has_recv:
+            break
+
+        data=conn.recv(1024)
+
+        f.write(data)
+        has_recv+=len(data)
+
+    f.close()
