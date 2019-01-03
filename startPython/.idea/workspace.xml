@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/useparamiko/sshconnect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useparamiko/filetransfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useparamiko/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,18 +90,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="7782" />
+          <entry key="Python Console" value="7811" />
           <entry key="dummy" value="18" />
           <entry key="html" value="349" />
-          <entry key="py" value="9949" />
-          <entry key="txt" value="377" />
+          <entry key="py" value="10197" />
+          <entry key="txt" value="397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="349" />
-          <entry key="PLAIN_TEXT" value="395" />
-          <entry key="Python" value="17731" />
+          <entry key="PLAIN_TEXT" value="415" />
+          <entry key="Python" value="18008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,17 +110,17 @@
           <entry key="html" value="1" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="63" />
+          <entry key="py" value="66" />
           <entry key="pyi" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="9" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="63" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="66" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -131,11 +132,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/useparamiko/sshconnect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useparamiko/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shutil/archive_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/useparamiko/filetransfer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -156,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fibonacci.py" />
-        <option value="$PROJECT_DIR$/Regexpression/re.py" />
         <option value="$PROJECT_DIR$/Regexpression/retest.py" />
         <option value="$PROJECT_DIR$/AOP/decorator.py" />
         <option value="$PROJECT_DIR$/privateprop.py" />
@@ -207,6 +236,8 @@
         <option value="$PROJECT_DIR$/logging/multiple_log.py" />
         <option value="$PROJECT_DIR$/paramiko/sshconnect.py" />
         <option value="$PROJECT_DIR$/useparamiko/sshconnect.py" />
+        <option value="$PROJECT_DIR$/useparamiko/test.txt" />
+        <option value="$PROJECT_DIR$/useparamiko/filetransfer.py" />
       </list>
     </option>
   </component>
@@ -328,8 +359,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sshconnect (1)">
-    <configuration name="checkcode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.filetransfer">
+    <configuration name="filetransfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,11 +368,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/useparamiko" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/checkcode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/useparamiko/filetransfer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,19 +532,19 @@
       <item itemvalue="Python.sqlalchemy" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.checkcode" />
       <item itemvalue="Python.logtest" />
       <item itemvalue="Python.multiple_log" />
       <item itemvalue="Python.sshconnect" />
       <item itemvalue="Python.sshconnect (1)" />
+      <item itemvalue="Python.filetransfer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.filetransfer" />
         <item itemvalue="Python.sshconnect (1)" />
         <item itemvalue="Python.sshconnect" />
         <item itemvalue="Python.multiple_log" />
         <item itemvalue="Python.logtest" />
-        <item itemvalue="Python.checkcode" />
       </list>
     </recent_temporary>
   </component>
@@ -640,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546512981453</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="standard library paramiko">
+      <created>1546519369903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546519369903</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -668,7 +706,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992658" weight="0.32346243" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43552312" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43552312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149477" side_tool="true" weight="0.2725061" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.5109489" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -706,7 +744,8 @@
     <MESSAGE value="css overflow" />
     <MESSAGE value="standard library testing" />
     <MESSAGE value="standard library logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="standard library logging" />
+    <MESSAGE value="standard library paramiko" />
+    <option name="LAST_COMMIT_MESSAGE" value="standard library paramiko" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,20 +767,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1247971763/posix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="1618" column="4" selection-start-line="1618" selection-start-column="4" selection-end-line="1618" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket/old_file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -998,16 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shutil/archive_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standard_modules/use_os.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1065,6 +1080,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shutil/archive_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useparamiko/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useparamiko/filetransfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
