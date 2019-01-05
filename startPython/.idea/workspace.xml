@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/useparamiko/filetransfer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useparamiko/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memcache/cachenode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memcache/memcache_client1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memcache/memcache_client2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,18 +91,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="7811" />
-          <entry key="dummy" value="18" />
+          <entry key="Python Console" value="8404" />
+          <entry key="dummy" value="26" />
           <entry key="html" value="349" />
-          <entry key="py" value="10197" />
+          <entry key="py" value="10641" />
           <entry key="txt" value="397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="349" />
-          <entry key="PLAIN_TEXT" value="415" />
-          <entry key="Python" value="18008" />
+          <entry key="PLAIN_TEXT" value="423" />
+          <entry key="Python" value="19045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,7 +111,7 @@
           <entry key="html" value="1" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="66" />
+          <entry key="py" value="69" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="9" />
           <entry key="xml" value="4" />
@@ -120,7 +121,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="66" />
+          <entry key="Python" value="69" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -133,40 +134,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useparamiko/sshconnect.py">
+        <entry file="file://$PROJECT_DIR$/Memcache/memcache_client1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useparamiko/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shutil/archive_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="64" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/useparamiko/filetransfer.py">
+        <entry file="file://$PROJECT_DIR$/Memcache/cachenode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Memcache/memcache_client2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -187,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Regexpression/retest.py" />
-        <option value="$PROJECT_DIR$/AOP/decorator.py" />
-        <option value="$PROJECT_DIR$/privateprop.py" />
         <option value="$PROJECT_DIR$/py03.py" />
         <option value="$PROJECT_DIR$/special_members.py" />
         <option value="$PROJECT_DIR$/property.py" />
@@ -238,6 +224,9 @@
         <option value="$PROJECT_DIR$/useparamiko/sshconnect.py" />
         <option value="$PROJECT_DIR$/useparamiko/test.txt" />
         <option value="$PROJECT_DIR$/useparamiko/filetransfer.py" />
+        <option value="$PROJECT_DIR$/Memcache/use_memcache.py" />
+        <option value="$PROJECT_DIR$/Memcache/memcache_client2.py" />
+        <option value="$PROJECT_DIR$/Memcache/cachenode.py" />
       </list>
     </option>
   </component>
@@ -285,7 +274,7 @@
             <path>
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="startPython" type="462c0819:PsiDirectoryNode" />
-              <item name="useparamiko" type="462c0819:PsiDirectoryNode" />
+              <item name="Memcache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +348,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.filetransfer">
+  <component name="RunManager" selected="Python.cachenode">
+    <configuration name="cachenode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Memcache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Memcache/cachenode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="filetransfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="memcache_client2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,32 +420,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Memcache" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/logtest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multiple_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logging" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logging/multiple_log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Memcache/memcache_client2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -507,7 +496,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sshconnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="use_memcache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,11 +504,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paramiko" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Memcache" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paramiko/sshconnect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Memcache/memcache_client1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -532,19 +521,19 @@
       <item itemvalue="Python.sqlalchemy" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.logtest" />
-      <item itemvalue="Python.multiple_log" />
-      <item itemvalue="Python.sshconnect" />
       <item itemvalue="Python.sshconnect (1)" />
       <item itemvalue="Python.filetransfer" />
+      <item itemvalue="Python.use_memcache" />
+      <item itemvalue="Python.memcache_client2" />
+      <item itemvalue="Python.cachenode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cachenode" />
+        <item itemvalue="Python.memcache_client2" />
+        <item itemvalue="Python.use_memcache" />
         <item itemvalue="Python.filetransfer" />
         <item itemvalue="Python.sshconnect (1)" />
-        <item itemvalue="Python.sshconnect" />
-        <item itemvalue="Python.multiple_log" />
-        <item itemvalue="Python.logtest" />
       </list>
     </recent_temporary>
   </component>
@@ -678,7 +667,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546519369903</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="standard library paramiko">
+      <created>1546520873466</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546520873466</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -700,13 +696,13 @@
       <window_info anchor="bottom" id="Messages" weight="0.32846716" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925262" weight="0.33576643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.33576643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.515807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992658" weight="0.32346243" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43552312" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43552312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149477" side_tool="true" weight="0.2725061" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.5109489" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -767,27 +763,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/socket/old_file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/new_file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socketserver/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1076,13 +1051,6 @@
     <entry file="file://$PROJECT_DIR$/useparamiko/id_rsa">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/useparamiko/sshconnect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shutil/archive_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1100,10 +1068,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/useparamiko/sshconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/useparamiko/filetransfer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memcache/memcache_client2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memcache/memcache_client1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memcache/cachenode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
