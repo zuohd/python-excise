@@ -6,11 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Redis/announcer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/subscriber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/use_pipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tornado/call_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_c1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/producer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,18 +98,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="10227" />
+          <entry key="Python Console" value="10238" />
           <entry key="dummy" value="26" />
           <entry key="html" value="361" />
-          <entry key="py" value="12711" />
-          <entry key="txt" value="420" />
+          <entry key="py" value="14591" />
+          <entry key="txt" value="425" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="361" />
-          <entry key="PLAIN_TEXT" value="446" />
-          <entry key="Python" value="22938" />
+          <entry key="PLAIN_TEXT" value="451" />
+          <entry key="Python" value="24829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,7 +118,7 @@
           <entry key="html" value="2" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="79" />
+          <entry key="py" value="90" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="9" />
           <entry key="xml" value="4" />
@@ -125,7 +128,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="79" />
+          <entry key="Python" value="90" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -138,104 +141,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Memcache/cachenode.py">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/use_pipe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/monitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/subscriber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Redis/announcer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tornado/helloworld.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="10" column="18" lean-forward="true" selection-end-line="26" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tornado/call_redis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sqlalchemy/ormsql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-648">
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sqlalchemy/servergroups.py">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_client_warning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="54">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tornado/MemcacheToSession.py">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_p.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="36">
+              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,14 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/socket/server.py" />
-        <option value="$PROJECT_DIR$/socketserver/client.py" />
-        <option value="$PROJECT_DIR$/socketserver/server.py" />
-        <option value="$PROJECT_DIR$/Threading/threading01.py" />
-        <option value="$PROJECT_DIR$/Threading/threading02.py" />
-        <option value="$PROJECT_DIR$/Threading/join_threading.py" />
-        <option value="$PROJECT_DIR$/Threading/threading03.py" />
-        <option value="$PROJECT_DIR$/Threading/threading04.py" />
         <option value="$PROJECT_DIR$/Threading/event.py" />
         <option value="$PROJECT_DIR$/closure.py" />
         <option value="$PROJECT_DIR$/algorithm/BubbleSort.py" />
@@ -308,6 +235,14 @@
         <option value="$PROJECT_DIR$/Redis/subscriber.py" />
         <option value="$PROJECT_DIR$/Redis/announcer.py" />
         <option value="$PROJECT_DIR$/tornado/call_redis.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/producer.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/consumer.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/fanout_c.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/fanout_p.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/fanout_c1.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/direct_p.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/direct_c.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
       </list>
     </option>
   </component>
@@ -352,6 +287,11 @@
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="startPython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="startPython" type="462c0819:PsiDirectoryNode" />
+              <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -385,8 +325,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.call_redis">
-    <configuration name="announcer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.direct_client_warning">
+    <configuration name="direct_client_warning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -394,11 +334,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Redis/announcer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="call_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fanout_c" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,11 +355,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tornado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tornado/call_redis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_c.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helloworld (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fanout_c1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,11 +376,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tornado" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tornado/helloworld.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_c1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fanout_p" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -462,6 +423,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/producer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -512,65 +494,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subscriber" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Redis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Redis/subscriber.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="use_pipe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Redis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Redis/use_pipe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.sqlalchemy" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.helloworld (1)" />
-      <item itemvalue="Python.use_pipe" />
-      <item itemvalue="Python.subscriber" />
-      <item itemvalue="Python.announcer" />
-      <item itemvalue="Python.call_redis" />
+      <item itemvalue="Python.producer" />
+      <item itemvalue="Python.fanout_c" />
+      <item itemvalue="Python.fanout_p" />
+      <item itemvalue="Python.fanout_c1" />
+      <item itemvalue="Python.direct_client_warning" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.call_redis" />
-        <item itemvalue="Python.announcer" />
-        <item itemvalue="Python.subscriber" />
-        <item itemvalue="Python.use_pipe" />
-        <item itemvalue="Python.helloworld (1)" />
+        <item itemvalue="Python.direct_client_warning" />
+        <item itemvalue="Python.fanout_p" />
+        <item itemvalue="Python.fanout_c" />
+        <item itemvalue="Python.fanout_c1" />
+        <item itemvalue="Python.producer" />
       </list>
     </recent_temporary>
   </component>
@@ -725,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546868391538</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="use redis">
+      <created>1547038294175</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547038294175</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -740,7 +687,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1362" height="553" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49079755" visible="true" weight="0.22869955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49079755" visible="true" weight="0.22869955" />
       <window_info id="Structure" order="1" sideWeight="0.5092025" side_tool="true" weight="0.22869955" />
       <window_info id="Favorites" order="2" sideWeight="0.5092025" side_tool="true" weight="0.22869955" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -751,9 +698,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992658" weight="0.32346243" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43552312" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43552312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149477" side_tool="true" weight="0.2725061" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.29683697" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.29440388" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -793,7 +740,8 @@
     <MESSAGE value="standard library paramiko" />
     <MESSAGE value="use memcache" />
     <MESSAGE value="use memcache session" />
-    <option name="LAST_COMMIT_MESSAGE" value="use memcache session" />
+    <MESSAGE value="use redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="use redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,72 +763,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm/BubbleSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/closure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Threading/event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard_modules/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard_modules/use_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard_modules/testSimple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard_modules/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xml/abc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Xml/new_out.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1144,10 +1026,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlalchemy/servergroups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="100">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/producer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pika/adapters/blocking_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5480">
+          <caret line="2303" column="25" selection-start-line="2303" selection-start-column="25" selection-end-line="2303" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pika/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="616" column="25" selection-start-line="616" selection-start-column="25" selection-end-line="616" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/fanout_c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/fanout_c1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/fanout_p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="18" lean-forward="true" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_client_warning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
