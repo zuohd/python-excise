@@ -6,14 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/direct_p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_c1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/fanout_p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/topic_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RabbitMQ/topic_p.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,15 +95,15 @@
           <entry key="Python Console" value="10238" />
           <entry key="dummy" value="26" />
           <entry key="html" value="361" />
-          <entry key="py" value="14591" />
-          <entry key="txt" value="425" />
+          <entry key="py" value="15467" />
+          <entry key="txt" value="482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="361" />
-          <entry key="PLAIN_TEXT" value="451" />
-          <entry key="Python" value="24829" />
+          <entry key="PLAIN_TEXT" value="508" />
+          <entry key="Python" value="25705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,7 +112,7 @@
           <entry key="html" value="2" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="90" />
+          <entry key="py" value="94" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="9" />
           <entry key="xml" value="4" />
@@ -128,7 +122,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="90" />
+          <entry key="Python" value="94" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -152,7 +146,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_client_warning.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -160,6 +154,48 @@
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_c.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_p.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RabbitMQ/consumer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.6/site-packages/pika/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="589" column="8" selection-start-line="589" selection-start-column="8" selection-end-line="589" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -192,8 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Threading/event.py" />
-        <option value="$PROJECT_DIR$/closure.py" />
         <option value="$PROJECT_DIR$/algorithm/BubbleSort.py" />
         <option value="$PROJECT_DIR$/algorithm/SelectionSort.py" />
         <option value="$PROJECT_DIR$/sqlalchemy.py" />
@@ -243,6 +277,8 @@
         <option value="$PROJECT_DIR$/RabbitMQ/direct_p.py" />
         <option value="$PROJECT_DIR$/RabbitMQ/direct_c.py" />
         <option value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/topic_c.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/topic_p.py" />
       </list>
     </option>
   </component>
@@ -672,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547038294175</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="use direct type to filter keyword in rabbitMQ">
+      <created>1547114879838</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547114879838</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -741,7 +784,8 @@
     <MESSAGE value="use memcache" />
     <MESSAGE value="use memcache session" />
     <MESSAGE value="use redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="use redis" />
+    <MESSAGE value="use direct type to filter keyword in rabbitMQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="use direct type to filter keyword in rabbitMQ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,23 +807,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Xml/new_out.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xml/generatexml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xml/first.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Xml/qqstatus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1041,13 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RabbitMQ/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.6/site-packages/pika/adapters/blocking_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5480">
@@ -1107,6 +1127,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pika/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="589" column="8" selection-start-line="589" selection-start-column="8" selection-end-line="589" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/consumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_p.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
