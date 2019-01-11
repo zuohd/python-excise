@@ -6,8 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/topic_c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RabbitMQ/topic_p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Requests/use_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,18 +91,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="10238" />
+          <entry key="Python Console" value="10274" />
           <entry key="dummy" value="26" />
           <entry key="html" value="361" />
-          <entry key="py" value="15467" />
-          <entry key="txt" value="482" />
+          <entry key="py" value="16719" />
+          <entry key="txt" value="490" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="361" />
-          <entry key="PLAIN_TEXT" value="508" />
-          <entry key="Python" value="25705" />
+          <entry key="PLAIN_TEXT" value="516" />
+          <entry key="Python" value="26993" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -112,7 +111,7 @@
           <entry key="html" value="2" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="94" />
+          <entry key="py" value="98" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="9" />
           <entry key="xml" value="4" />
@@ -122,7 +121,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="94" />
+          <entry key="Python" value="98" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -134,80 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_c.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="18" lean-forward="true" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_client_warning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_c.py">
+        <entry file="file://$PROJECT_DIR$/Requests/use_requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_p.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/consumer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.6/site-packages/pika/connection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="589" column="8" selection-start-line="589" selection-start-column="8" selection-end-line="589" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_p.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -228,9 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm/BubbleSort.py" />
-        <option value="$PROJECT_DIR$/algorithm/SelectionSort.py" />
-        <option value="$PROJECT_DIR$/sqlalchemy.py" />
         <option value="$PROJECT_DIR$/ormsql.py" />
         <option value="$PROJECT_DIR$/sqlalchemy/servergroups.py" />
         <option value="$PROJECT_DIR$/sqlalchemy/ormsql.py" />
@@ -279,6 +206,9 @@
         <option value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
         <option value="$PROJECT_DIR$/RabbitMQ/topic_c.py" />
         <option value="$PROJECT_DIR$/RabbitMQ/topic_p.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/rpc_server.py" />
+        <option value="$PROJECT_DIR$/RabbitMQ/rpc_client.py" />
+        <option value="$PROJECT_DIR$/Requests/use_requests.py" />
       </list>
     </option>
   </component>
@@ -323,11 +253,6 @@
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="startPython" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="startPython" type="462c0819:PsiDirectoryNode" />
-              <item name="RabbitMQ" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -361,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.direct_client_warning">
+  <component name="RunManager" selected="Python.use_requests">
     <configuration name="direct_client_warning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -375,48 +300,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fanout_c" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_c.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fanout_c1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_c1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -467,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="producer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rpc_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -479,7 +362,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/producer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/rpc_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rpc_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/rpc_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -530,23 +434,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="use_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Requests/use_requests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.sqlalchemy" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.producer" />
-      <item itemvalue="Python.fanout_c" />
       <item itemvalue="Python.fanout_p" />
-      <item itemvalue="Python.fanout_c1" />
       <item itemvalue="Python.direct_client_warning" />
+      <item itemvalue="Python.rpc_server" />
+      <item itemvalue="Python.rpc_client" />
+      <item itemvalue="Python.use_requests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.use_requests" />
+        <item itemvalue="Python.rpc_client" />
+        <item itemvalue="Python.rpc_server" />
         <item itemvalue="Python.direct_client_warning" />
         <item itemvalue="Python.fanout_p" />
-        <item itemvalue="Python.fanout_c" />
-        <item itemvalue="Python.fanout_c1" />
-        <item itemvalue="Python.producer" />
       </list>
     </recent_temporary>
   </component>
@@ -715,7 +640,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547114879838</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="use topic type to filter keyword in rabbitMQ">
+      <created>1547118025793</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547118025793</updated>
+    </task>
+    <task id="LOCAL-00024" summary="use rpc in rabbitMQ">
+      <created>1547193368748</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547193368748</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -729,21 +668,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1362" height="553" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49079755" visible="true" weight="0.22869955" />
       <window_info id="Structure" order="1" sideWeight="0.5092025" side_tool="true" weight="0.22869955" />
       <window_info id="Favorites" order="2" sideWeight="0.5092025" side_tool="true" weight="0.22869955" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925262" weight="0.33576643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925262" visible="true" weight="0.33576643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.513382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992658" weight="0.32346243" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43552312" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992658" weight="0.3211679" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43552312" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50149477" side_tool="true" weight="0.2725061" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.29440388" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49850523" weight="0.6082725" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -758,6 +698,32 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -785,7 +751,9 @@
     <MESSAGE value="use memcache session" />
     <MESSAGE value="use redis" />
     <MESSAGE value="use direct type to filter keyword in rabbitMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="use direct type to filter keyword in rabbitMQ" />
+    <MESSAGE value="use topic type to filter keyword in rabbitMQ" />
+    <MESSAGE value="use rpc in rabbitMQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="use rpc in rabbitMQ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,34 +775,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Xml/qqstatus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configparser/newfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Xml/traindetail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configparser/file.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/subprocess/call.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1105,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RabbitMQ/direct_p.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="52">
           <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -1159,11 +1099,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RabbitMQ/topic_c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="72">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pika/spec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="2083" column="13" selection-start-line="2083" selection-start-column="13" selection-end-line="2083" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/rpc_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RabbitMQ/rpc_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Requests/use_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
