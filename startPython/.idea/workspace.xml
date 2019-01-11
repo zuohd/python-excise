@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4550affe-0ec0-483f-8784-4430f9433211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Requests/use_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Requests/custom_request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,15 +94,15 @@
           <entry key="Python Console" value="10274" />
           <entry key="dummy" value="26" />
           <entry key="html" value="361" />
-          <entry key="py" value="16719" />
-          <entry key="txt" value="490" />
+          <entry key="py" value="16984" />
+          <entry key="txt" value="513" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="361" />
-          <entry key="PLAIN_TEXT" value="516" />
-          <entry key="Python" value="26993" />
+          <entry key="PLAIN_TEXT" value="539" />
+          <entry key="Python" value="27258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,7 +111,7 @@
           <entry key="html" value="2" />
           <entry key="id_rsa" value="1" />
           <entry key="log" value="5" />
-          <entry key="py" value="98" />
+          <entry key="py" value="99" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="9" />
           <entry key="xml" value="4" />
@@ -121,7 +121,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="98" />
+          <entry key="Python" value="99" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -133,11 +133,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Requests/use_requests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Requests/custom_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -158,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ormsql.py" />
         <option value="$PROJECT_DIR$/sqlalchemy/servergroups.py" />
         <option value="$PROJECT_DIR$/sqlalchemy/ormsql.py" />
         <option value="$PROJECT_DIR$/standard_modules/simple.py" />
@@ -209,6 +217,7 @@
         <option value="$PROJECT_DIR$/RabbitMQ/rpc_server.py" />
         <option value="$PROJECT_DIR$/RabbitMQ/rpc_client.py" />
         <option value="$PROJECT_DIR$/Requests/use_requests.py" />
+        <option value="$PROJECT_DIR$/Requests/custom_request.py" />
       </list>
     </option>
   </component>
@@ -253,6 +262,11 @@
               <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="startPython" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="startPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="startPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -286,7 +300,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.use_requests">
+  <component name="RunManager" selected="Python.custom_request">
+    <configuration name="custom_request" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="startPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Requests/custom_request.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="direct_client_warning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="startPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,27 +335,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/direct_client_warning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fanout_p" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="startPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RabbitMQ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RabbitMQ/fanout_p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -459,19 +473,19 @@
       <item itemvalue="Python.sqlalchemy" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.secondPython" />
-      <item itemvalue="Python.fanout_p" />
       <item itemvalue="Python.direct_client_warning" />
       <item itemvalue="Python.rpc_server" />
       <item itemvalue="Python.rpc_client" />
       <item itemvalue="Python.use_requests" />
+      <item itemvalue="Python.custom_request" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.custom_request" />
         <item itemvalue="Python.use_requests" />
         <item itemvalue="Python.rpc_client" />
         <item itemvalue="Python.rpc_server" />
         <item itemvalue="Python.direct_client_warning" />
-        <item itemvalue="Python.fanout_p" />
       </list>
     </recent_temporary>
   </component>
@@ -654,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547193368748</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="request basic operation">
+      <created>1547194963703</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547194963725</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -753,7 +774,8 @@
     <MESSAGE value="use direct type to filter keyword in rabbitMQ" />
     <MESSAGE value="use topic type to filter keyword in rabbitMQ" />
     <MESSAGE value="use rpc in rabbitMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="use rpc in rabbitMQ" />
+    <MESSAGE value="request basic operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="request basic operation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,13 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/subprocess/call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shutil/old.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1134,7 +1149,14 @@
     <entry file="file://$PROJECT_DIR$/Requests/use_requests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Requests/custom_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
