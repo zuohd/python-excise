@@ -1,0 +1,6 @@
+2019-01-03 18:41:40 PM-root-CRITICAL-logtest:critical
+2019-01-03 18:41:40 PM-root-ERROR-logtest:error
+2019-01-03 18:41:40 PM-root-WARNING-logtest:warnning
+2019-01-03 18:41:40 PM-root-INFO-logtest:info
+2019-01-03 18:41:40 PM-root-DEBUG-logtest:debug
+2019-01-03 18:41:40 PM-root-INFO-logtest:NOTSET
